@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files (Linux, macOS)
+.DS_Store
+Thumbs.db
+
+# Windsurf AI IDE (uses Codeium, similar to VS Code)
+.windsurf/
+.codeium/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Optional: Docker
+docker-compose.override.yml
+
+# Optional: coverage reports
+coverage/
+*.lcov
+
+# Optional: misc
+*.swp
+*.swo
+*~
+
+# Ignore system files
+*.bak
+*.tmp
+
+# Ignore test output
+test-output/
+
