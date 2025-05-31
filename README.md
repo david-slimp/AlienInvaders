@@ -47,13 +47,10 @@ Mouse click also toggles the mute button via the on-screen UI.
 
 AlienInvaders/
 ├── index.html    # Main HTML page and game logic
-├── PRD.md       # Product Requirements Document
-├── CHANGELOG.md # Version history and release notes
-
-## 📜 Changelog
-
-Detailed changes for each release are documented in the [CHANGELOG.md](CHANGELOG.md) file.
-└── README.md # You're here!
+├── PRD.md        # Product Requirements Document
+├── CHANGELOG.md  # Version history and notes
+├── README.md     # You're here!
+└── LICENSE.txt   # License information
 
 
 All logic and rendering currently lives inside the single `index.html` file.

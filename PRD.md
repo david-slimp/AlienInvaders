@@ -2,8 +2,8 @@
 
 ## Game Title: **AlienInvaders**
 
-**Version:** MVP 1.0  
-**Author:** rock808  
+**Version:** MVP 0.1.0  
+**Author:** David Slimp (rock808) <coder@David-Slimp.com>  
 **Platform:** HTML5, JavaScript (Canvas-based)  
 **Genre:** Retro Arcade Shooter  
 **Target Audience:** Casual gamers (age 10+), retro gaming fans  
@@ -13,7 +13,7 @@
 
 ## 🧭 1. Project Overview
 
-**AlienInvaders** is a web-based arcade shooter inspired by _Space Invaders_ and enhanced with modern browser features. The player defends Earth by shooting descending alien formations while protecting shield structures. The game emphasizes score-chasing, strategic timing, and progressive difficulty.
+**AlienInvaders** is a web-based arcade shooter inspired by _Space Invaders_ and _Galaxian_, and enhanced with modern browser features. The player defends Earth by shooting descending alien formations while protecting shield structures. The game emphasizes score-chasing, strategic timing, and progressive difficulty.
 
 ---
 
@@ -114,7 +114,7 @@
 
 | Milestone             | Target | Key Features                                              |
 |------------------------|--------|-----------------------------------------------------------|
-| **v1.0 - MVP**         | ✅ Done | Basic shooting, aliens, shields, pause, score tracking   |
+| **v0.1.0 - MVP**         | ✅ Done | Basic shooting, aliens, shields, pause, score tracking   |
 | **v1.1 - Polish**      | TBD    | Sprites, explosions, power-ups                           |
 | **v1.2 - Progress**    | TBD    | Wave titles, localStorage high score, persistent scoring |
 | **v1.3 - Bosses**      | TBD    | Boss encounters, new alien types                         |
