@@ -139,7 +139,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
         // Define initial and final speed
         const initialAlienSpeed = 1; // Starting speed
-        const FinalAlienSpeed = 16;    // Maximum speed
+        const finalAlienSpeed = 16;    // Maximum speed
         let alienSpeed = initialAlienSpeed; // Current speed
 
         let alienDirection = 1; // 1: right, -1: left
@@ -343,7 +343,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                         // Increase alien speed more significantly
                         const totalAliens = alienRows * alienCols;
                         const remainingAliens = aliens.filter(alien => alien.alive).length;
-                        const speedIncreaseFactor = (FinalAlienSpeed - initialAlienSpeed) / totalAliens;
+                        const speedIncreaseFactor = (finalAlienSpeed - initialAlienSpeed) / totalAliens;
                         alienSpeed = initialAlienSpeed + (totalAliens - remainingAliens) * speedIncreaseFactor;
 
                         // Check if all aliens are killed
