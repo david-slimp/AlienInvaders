@@ -127,7 +127,7 @@
 
 | File              | Purpose                              |
 |-------------------|---------------------------------------|
-| `index.html`      | Main game container & HTML            |
+| `invaders.html`      | Main game container & HTML            |
 | `<script>` (inline)| Game logic, rendering, sound         |
 | `canvas`          | Main game rendering surface           |
 | `shieldCanvas`    | Off-screen canvas for damage          |

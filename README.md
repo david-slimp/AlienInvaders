@@ -35,7 +35,7 @@ Mouse click also toggles the mute button via the on-screen UI.
 ## 🖥️ How to Play
 
 1. Clone or download the repository.
-2. Open `index.html` in any modern browser (Chrome/Firefox recommended).
+2. Open `invaders.html` in any modern browser (Chrome/Firefox recommended).
 3. Shoot the descending aliens before they reach your ship.
 4. Defend your shields and aim for the highest score!
 
@@ -46,14 +46,14 @@ Mouse click also toggles the mute button via the on-screen UI.
 ## 📦 Project Structure
 
 AlienInvaders/
-├── index.html    # Main HTML page and game logic
+├── invaders.html    # Main HTML page and game logic
 ├── PRD.md        # Product Requirements Document
 ├── CHANGELOG.md  # Version history and notes
 ├── README.md     # You're here!
 └── LICENSE.txt   # License information
 
 
-All logic and rendering currently lives inside the single `index.html` file.
+All logic and rendering currently lives inside the single `invaders.html` file.
 
 ---
 
