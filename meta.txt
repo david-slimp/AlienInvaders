@@ -1,0 +1,6 @@
+name: "Alien Invaders",
+path: "AlienInvaders/",
+thumb: "AlienInvaders/invaders-thumb-02.png",
+version: "0.2.0",
+desc: "Blast neon invaders, dodge plasma, and chase high scores in a CRT fever dream.",
+modified: "2026-01-01T09:20:34.612Z"

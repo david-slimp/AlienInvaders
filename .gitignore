@@ -1,6 +1,7 @@
 # ======================
 # OS-Specific (Linux)
 # ======================
+drafts/
 *~
 .fuse_hidden*
 .directory

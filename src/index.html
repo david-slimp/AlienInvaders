@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alien Invaders // Try5</title>
+    <meta name="description" content="A neon-soaked, 1980s arcade-style Space Invaders tribute built with HTML5, TS, and CSS." />
+  </head>
+  <body>
+    <div id="app">
+      <header class="marquee">
+        <div class="marquee__glow">ALIEN INVADERS</div>
+      </header>
+
+      <main class="stage">
+        <section class="cabinet">
+          <div class="screen">
+            <div class="hud hud--overlay">
+              <div class="hud__left">
+                <div class="hud__label">SCORE</div>
+                <div id="score" class="hud__value">000000</div>
+              </div>
+              <div class="hud__center">
+                <div class="hud__label">WAVE</div>
+                <div id="wave" class="hud__value">01</div>
+              </div>
+              <div class="hud__right">
+                <div class="hud__label">LIVES</div>
+                <div id="lives" class="hud__value">03</div>
+              </div>
+            </div>
+            <canvas id="game" width="480" height="576" aria-label="Alien Invaders game"></canvas>
+            <div class="crt"></div>
+            <div class="vignette"></div>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <div id="edition" class="panel__kicker">rock808 EDITION</div>
+          <div class="panel__title">MISSION</div>
+          <p class="panel__body">
+            Defend the neon frontier. Survive escalating alien formations, dodge plasma barrages,
+            and intercept the rogue mothership for massive score bonuses.
+          </p>
+          <div class="panel__title">CONTROLS</div>
+          <ul class="panel__list">
+            <li><span>MOVE</span> A/D or ◀/▶</li>
+            <li><span>FIRE</span> SPACE</li>
+            <li><span>OVERCHARGE</span> SHIFT</li>
+            <li><span>PAUSE</span> P</li>
+            <li><span>RESTART</span> R</li>
+          </ul>
+          <div class="panel__footer">
+            <span>ANALOG SYNTH CORE ONLINE</span>
+          </div>
+        </aside>
+      </main>
+    </div>
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>

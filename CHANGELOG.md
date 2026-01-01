@@ -16,6 +16,25 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [0.2.0] - 2025-01-01
+### ✨ Neon Arcade Overhaul
+
+#### ✅ Added
+- Vite + TypeScript project setup at repo root with HTML5 canvas renderer
+- CRT-styled cabinet layout, overlay HUD, and responsive arcade UI
+- Starfield background, glow effects, scanlines, and vignette treatment
+- Wave system with faster formations and a flying mothership bonus target
+- Overcharge shot, synth SFX, and expanded explosion effects
+- Pixel-art alien sprites with two-frame animation and a pixel gunnership
+- Documentation folder with PRD, MVP, README, and license files
+
+#### 🔧 Changed
+- Reduced vertical playfield height and moved HUD into the screen area
+- Shields disintegrate faster on hit for snappier gameplay
+- Alien formations start higher with tighter spacing for more tension
+
+---
+
 ## [0.1.0] - 2024-09-17  
 ### 🎮 MVP Release
 
